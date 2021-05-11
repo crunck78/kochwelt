@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="includeHTML()">
+    <div w3-include-html="templates/header.html"></div>
+
+    <div id="day-rezept-box" class="section">
+        <img src="img/croissant.jpg" alt="">
+        <div>
+            <h2>Rezept des Tages Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quasi libero ullam incidunt velit
+                temporibus earum eaque voluptas sunt a, aliquam minima sequi excepturi voluptates unde, provident
+                facilis quaerat magni! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque esse quaerat
+                earum doloremque harum consequuntur cupiditate, pariatur voluptates facilis totam ipsum soluta, enim
+                suscipit, perferendis iste molestiae sequi qui officia? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Aut, eligendi cum, dicta non eius enim ducimus consequatur dignissimos excepturi ullam
+                vitae ab mollitia officiis? Voluptatem praesentium ducimus id odit quo! Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Eligendi eos labore doloremque, nisi ipsa necessitatibus eius provident
+                distinctio? Praesentium debitis sit cupiditate blanditiis eos labore nemo reiciendis, dolorum itaque
+                expedita.
+            </p>
+            <a href="./day-rezept.html" class="btn">Rezept öffnen</a>
+        </div>
+    </div>
+    <div id="new-rezepts-box" class="section">
+        <h2>Lust auf was Neues?</h2>
+        <!--ROW BEGINNE-->
+        <div class="rezepts-row">
+            <a href="croissant.html" class="rezept-box">
+                <img src="img/croissant.jpg">
+                <span>Frisches Croissant</span>
+            </a>
+            <a href="salat.html" class="rezept-box">
+                <img src="img/salad.jpg">
+                <span>Griechischer Bauersalat</span>
+            </a>
+            <a href="wok.html" class="rezept-box">
+                <img src="img/wok.jpg">
+                <span>Wok</span>
+            </a>
+        </div>
+        <!--ROW END-->
+    </div>
+    <div id="topic-box" class="section">
+        <h2>Pfanne vs. Wok - Was ist besser?</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, natus labore quaerat, vitae, cumque
+                libero maxime nam id at officiis explicabo exercitationem corporis nulla dolorum. Blanditiis cum debitis
+                quidem.</p>
+            <img src="img/wok.jpg">
+        </div>
+    </div>
+
+    <div w3-include-html="templates/footer.html"></div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+#rezept-box>img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: var(--box-margin-24);
+}
+
+.details-box{
+    display: flex;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-light-gray);
+    padding: var(--box-padding-4);
+    border-radius: var(--border-radius);
+    margin-right: var(--box-margin-12);
+}
+
+.detail img{
+    width: 20px;
+    height: 20px;
+    margin-right: var(--box-margin-8);
+}
+
+#calculator-box{
+    display: flex;
+    align-items: center;
+    /* width: 40%; */
+}
+
+#calculator-box span{
+    text-align: center;
+}
+
+#calculator-box input{
+    height: 29px;
+    /* flex-grow: 1; */
+    margin-left: var(--box-margin-12);
+}
+
+.ingredient-box{
+    padding: var(--box-padding-16);
+}
+
+#ingredients .ingredient-box:nth-child(2n-1){
+    background-color: var(--color-light-gray);
+    border-radius: var(--border-radius);
+}
+
+#rezept-creator-box{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+#rezept-creator-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: var(--border-circle);
+    margin-right: var(--box-margin-12);
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-light-gray);
+    margin-top: var(--box-margin-32);
+}

@@ -1,0 +1,39 @@
+#contact-form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 400px;
+}
+
+#form-text{
+    flex-grow: 0.8;
+    max-width: -webkit-fill-available;
+    min-width: -webkit-fill-available;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+#form-name{
+    width: -webkit-fill-available;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 800px){
+    #contact-form {
+        width: 100%;
+    }
+}

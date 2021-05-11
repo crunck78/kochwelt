@@ -1,0 +1,117 @@
+/*Global CSS Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+:root{
+    --box-padding-80: 80px;
+    --box-padding-64: 64px;
+    --box-padding-56: 56px;
+    --box-padding-48: 48px;
+    --box-padding-40: 40px;
+    --box-padding-32: 32px;
+    --box-padding-24: 24px;
+    --box-padding-16: 16px;
+    --box-padding-8: 8px;
+    --box-padding-4: 4px;
+    --box-padding-0: 0px;
+
+    --box-margin-80: 80px;
+    --box-margin-64: 64px;
+    --box-margin-56: 56px;
+    --box-margin-48: 48px;
+    --box-margin-40: 40px;
+    --box-margin-32: 32px;
+    --box-margin-24: 24px;
+    --box-margin-16: 16px;
+    --box-margin-12: 12px;
+    --box-margin-8: 8px;
+    --box-margin-4: 4px;
+    --box-margin-0: 0px;
+
+    --box-border-80: 80px;
+    --box-border-64: 64px;
+    --box-border-56: 56px;
+    --box-border-48: 48px;
+    --box-border-40: 40px;
+    --box-border-32: 32px;
+    --box-border-24: 24px;
+    --box-border-16: 16px;
+    --box-border-8: 8px;
+    --box-border-4: 4px;
+    --box-border-0: 0px;
+
+
+    --color-white: white;
+    --color-black: black;
+    --color-green: #008000;
+    --color-gray: gray;
+    --color-light-gray: #EFEFEF;
+    --color-footer: #403B3B;
+
+    --border-radius: 10px;
+    --border-circle: 100%;
+
+    --cursor-hover: pointer;
+
+    --opacity-hover: 0.5;
+
+    --media-width-800: 800px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+.section{
+    padding-left: var(--box-padding-80);
+    padding-right: var(--box-padding-80);
+    padding-top: var(--box-padding-8);
+    padding-bottom: var(--box-padding-8);
+}
+
+img{
+    border-radius: var(--border-radius);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: var(--color-green);
+    width: fit-content;
+    color: var(--color-white);
+    padding-left: var(--box-margin-32);
+    padding-right: var(--box-margin-32);
+    padding-top: var(--box-margin-8);
+    padding-bottom: var(--box-margin-8);
+    cursor: var(--cursor-hover);
+}
+
+.btn:hover{
+    opacity: var(--opacity-hover);
+}
+
+.margin-top-16{
+    margin-top: var(--box-margin-16);
+}
+
+.margin-top-32{
+    margin-top: var(--box-margin-32);
+}
+
+.margin-bottom-32{
+    margin-bottom: var(--box-margin-32);
+}
+
+.bg-light-gray{
+    background-color: var(--color-light-gray);
+}
+
+
+@media (max-width: 500px){
+    .section{
+        padding-left: var(--box-padding-8);
+        padding-right: var(--box-padding-8);
+    }
+}

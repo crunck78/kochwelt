@@ -1,0 +1,110 @@
+#day-rezept-box{
+    display: flex;
+    margin-top: var(--box-margin-32);
+}
+
+#day-rezept-box img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    /* object-fit: contain; */
+    margin-right: var(--box-margin-32);
+}
+
+#day-rezept-box h2{
+    margin: var(--box-margin-0);
+}
+
+#day-rezept-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#day-rezept-box div a{
+    justify-self: flex-end;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#new-rezepts-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-light-gray);
+}
+
+.rezepts-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rezept-box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rezept-box img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#topic-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: var(--color-white); */
+}
+
+#topic-box div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#topic-box div img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: var(--box-margin-32);
+}
+
+@media (max-width: 800px){
+    #day-rezept-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #day-rezept-box img{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .rezepts-row{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .rezept-box{
+        margin-bottom: var(--box-margin-32);        
+     }
+
+    #topic-box{
+        text-align: center;
+    }
+
+     #topic-box div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #topic-box div img{
+        margin-left: 0;
+    }
+}

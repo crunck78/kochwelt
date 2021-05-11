@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+</head>
+<body onload="includeHTML()">
+    <div w3-include-html="templates/header.html"></div>
+    <div id="contact-form-box" class="section bg-light-gray">
+        <form id="contact-form" action="https://mihai-andrei-neacsu.developerakademie.com/projects/kochwelt/send_mail/send_mail.php" method="post">
+            <input id="form-name" name="name" placeholder="Dein Name" minlength="3" maxlength="20" required>
+            <textarea id="form-text" name="message" placeholder="Deine Nachricht an uns" minlength="10" maxlength="100" required></textarea>
+            <button class="btn" type="submit">Mail senden</button>
+        </form>
+    </div>
+    <div w3-include-html="templates/footer.html"></div>
+</body>
+</html>

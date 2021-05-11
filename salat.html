@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griechischer Bauersalat</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/rezept.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="includeHTML()">
+    <div w3-include-html="templates/header.html"></div>
+    <!--Rezept Template-->
+    <div id="rezept-box" class="section">
+        <h2>Griechischer Bauersalat</h2>
+        <img src="img/salad.jpg">
+        <div class="details-box">
+            <div class="detail">
+                <img src="img/clock-regular.svg">
+                <span>15 min.</span>
+            </div>
+            <div class="detail">
+                <img src="img/brain-solid.svg">
+                <span>simpel</span>
+            </div>
+            <div class="detail">
+                <img src="img/calendar-alt-regular.svg">
+                <span>17.05.2021</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <div class="separator"></div>
+    </div>
+
+    <div class="section">
+        <div id="calculator-box">
+            Zutaten für
+            <input value="1" type="number" min="0" max="100" name="portion" id="portion">
+            <div class="btn" onclick="calculateIngredients()">Portionen</div>
+        </div>
+
+        <div id="ingredients" class=" margin-top-16">
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">1</span>
+                <span id="name-ingredient-">Saltgurke (n)</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">2</span>
+                <span id="name-ingredient-">Paprikaschot(n), rot und grün</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">500g</span>
+                <span id="name-ingredient-">Tomate (n)</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">2</span>
+                <span id="name-ingredient-">Zwiebel(n)</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">200g</span>
+                <span id="name-ingredient-">Schafskäse (n)</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">1</span>
+                <span id="name-ingredient-">Glas Oliven, schware, ca 100g</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-"></span>
+                <span id="name-ingredient-">Salz und Pfeffer</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-">1</span>
+                <span id="name-ingredient-">Zitrone(n)</span>
+
+            </div>
+            <div class="ingredient-box">
+
+                <span id="size-ingredient-"></span>
+                <span id="name-ingredient-">Oregano</span>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="rezept-prepare-box" class="section">
+        <h2>Zubereitung</h2>
+        <div class="details-box">
+            <div class="detail">
+                <img src="img/clock-regular.svg">
+                <span>ca. 15 Minuten</span>
+            </div>
+            <div class="detail">
+                <img src="img/clock-regular.svg">
+                <span>Gesamntzeit ca. 15 Minuten</span>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia
+            sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum
+            quam.</p>
+
+        <h3>Rezept erstellt von</h3>
+        <div id="rezept-creator-box">
+            <img src="img/profile.png">
+            <span>Mihai</span>
+        </div>
+    </div>
+    <!--Rezept Template End-->
+    <div w3-include-html="templates/footer.html"></div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+{
+    "rezepts": [
+        {
+            "name": "salat",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam.",
+            "ingredients": [
+                {
+                    "measure": 200,
+                    "unit": "g",
+                    "name": "salt"
+                },
+                {
+                    "measure": 300,
+                    "unit": "ml",
+                    "name": "milk"
+                },
+                {
+                    "measure": 3,
+                    "unit": "",
+                    "name": "onion(s)"
+                },
+                {
+                    "measure": 4,
+                    "unit": "",
+                    "name": "egg(s)"
+                }
+            ],
+            "img": "img/salat.jpg",
+            "complexitie": "simple",
+            "createDate": "17.05.2021",
+            "timeToMake": 15,
+            "prepareSteps": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam."
+        },
+        {
+            "name": "croissant",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam.",
+            "ingredients": [
+                {
+                    "measure": 200,
+                    "unit": "g",
+                    "name": "salt"
+                },
+                {
+                    "measure": 300,
+                    "unit": "ml",
+                    "name": "milk"
+                },
+                {
+                    "measure": 3,
+                    "unit": "",
+                    "name": "onion(s)"
+                },
+                {
+                    "measure": 4,
+                    "unit": "",
+                    "name": "egg(s)"
+                }
+            ],
+            "img": "img/croissant.jpg",
+            "complexitie": "relative simple",
+            "createDate": "17.05.2021",
+            "timeToMake": 15,
+            "prepareSteps": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam."
+        },
+        {
+            "name": "wok",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam.",
+            "ingredients": [
+                {
+                    "measure": 200,
+                    "unit": "g",
+                    "name": "salt"
+                },
+                {
+                    "measure": 300,
+                    "unit": "ml",
+                    "name": "milk"
+                },
+                {
+                    "measure": 3,
+                    "unit": "",
+                    "name": "onion(s)"
+                },
+                {
+                    "measure": 4,
+                    "unit": "",
+                    "name": "egg(s)"
+                }
+            ],
+            "img": "img/wok.jpg",
+            "complexitie": "complex",
+            "createDate": "17.05.2021",
+            "timeToMake": 15,
+            "prepareSteps": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem reprehenderit accusantium ut officia sint. Repellendus esse nostrum atque sed, assumenda dolores, vel nam voluptates maxime eius facere dolorum quam."
+        }
+    ]
+}
