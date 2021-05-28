@@ -1,3 +1,9 @@
+const ingredientsAmount = {
+  salat: [ 1, 2, 500, 2, 200, 1, 0, 1, 0 ],
+  croissant: [],
+  wok: []
+};
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -26,6 +32,12 @@ function includeHTML() {
   }
 }
 
-function calculateIngredients(){
-  
+function calculateIngredients(rezept){
+  console.log(rezept);
+  const ingredientsSize = Array.from(document.getElementsByClassName("size-ingredient"));
+  const portions = +document.getElementById("portion").value;
+  ingredientsSize.forEach( (ingredientSize, index) =>{
+    if(ingredientsAmount[rezept][index] != 0)
+      ingredientSize.innerHTML = ingredientsAmount[rezept][index] * portions;
+  });
 }
