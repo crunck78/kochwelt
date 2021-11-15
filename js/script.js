@@ -1,5 +1,5 @@
 const ingredientsAmount = {
-  salat: [ 1, 2, 500, 2, 200, 1, 0, 1, 0 ],
+  salat: [1, 2, 500, 2, 200, 1, 0, 1, 0],
   croissant: [],
   wok: []
 };
@@ -15,10 +15,10 @@ function includeHTML() {
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
       xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
+      xhttp.onreadystatechange = function () {
         if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+          if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
           /* Remove the attribute, and call this function once more: */
           elmnt.removeAttribute("w3-include-html");
           includeHTML();
@@ -32,12 +32,12 @@ function includeHTML() {
   }
 }
 
-function calculateIngredients(rezept){
+function calculateIngredients(rezept) {
   console.log(rezept);
   const ingredientsSize = Array.from(document.getElementsByClassName("size-ingredient"));
   const portions = +document.getElementById("portion").value;
-  ingredientsSize.forEach( (ingredientSize, index) =>{
-    if(ingredientsAmount[rezept][index] != 0)
+  ingredientsSize.forEach((ingredientSize, index) => {
+    if (ingredientsAmount[rezept][index] != 0)
       ingredientSize.innerHTML = ingredientsAmount[rezept][index] * portions;
   });
 }

@@ -11,6 +11,8 @@
     margin-right: var(--box-margin-32);
 }
 
+
+
 #day-rezept-box h2{
     margin: var(--box-margin-0);
 }
@@ -107,4 +109,9 @@
     #topic-box div img{
         margin-left: 0;
     }
+}
+
+
+.test{
+    font-size: 100px;
 }

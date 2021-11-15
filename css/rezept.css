@@ -5,6 +5,14 @@
     margin-bottom: var(--box-margin-24);
 }
 
+footer{
+    height: 300px !important;
+}
+
+img{
+    border-radius: 10px !important;
+}
+
 .details-box{
     display: flex;
 }
